@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fff0f7;
+}
+
+/* HEADER */
+header {
+    background: #87ceeb;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* LOGIN */
+.login-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #87ceeb;
+    border: none;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg,#e6ccff,#ffc0cb);
+}
+
+.btn {
+    background: #87ceeb;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* ORDER */
+.order-section {
+    padding: 40px;
+    text-align: center;
+}
+
+#orderForm {
+    max-width: 400px;
+    margin: auto;
+    background: #f3e8ff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+#orderForm input,
+#orderForm select,
+#orderForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#orderForm button {
+    width: 100%;
+    padding: 12px;
+    background: #87ceeb;
+    border: none;
+    color: white;
+}
