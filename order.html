@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Order | GrowinID</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>GrowinID</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+</header>
+
+<section class="order-section">
+    <h2>Form Order Jasa</h2>
+
+    <form id="orderForm">
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="text" placeholder="Nama Bisnis" required>
+        <input type="tel" placeholder="No WhatsApp" required>
+
+        <select required>
+            <option value="">Pilih Paket</option>
+            <option>Basic</option>
+            <option>Pro</option>
+        </select>
+
+        <textarea placeholder="Catatan tambahan"></textarea>
+
+        <button type="submit">Kirim Order</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
